@@ -6,4 +6,5 @@ def key_for_min_value(name_hash)
     arr = hash.collect { |k, v| v }.sort
   end   
     hash.each { |k, v| return k if v == arr[0] }
+  end
 end
